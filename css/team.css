@@ -40,4 +40,33 @@
 .team-card-position {
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
+}
+
+.socials {
+  display: flex;
+  gap: 24px;
+}
+
+.socials-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.socials-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials .socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #4d5ae5;
+}
+
+.socials .socials-link:hover,
+.socials .socials-link:focus {
+  background-color: #404bbf;
 }
